@@ -9,6 +9,7 @@ class Agenda():
     def __init__(self):
         self.contatos = []
 
+    @staticmethod
     def validarNumeroCel(cel):
         if cel.isdigit() and len(cel) == 10:
             return True
